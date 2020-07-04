@@ -27,6 +27,10 @@ set number
 " タイトルを設置する
 set title
 
+" カラースキームをmolokaiに設定する
+syntax on
+colorscheme molokai
+
 " Exモードでの自動補完<C-d>をzsh風にする
 set wildmode=full
 
